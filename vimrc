@@ -22,7 +22,8 @@ imap <C-a> <esc>0i
 
 "Remap for search and replace templates
 nnoremap <F3> /
-nnoremap <F4> :s//<left>
+nnoremap <F4> :%s//g<left><left>
+
 
 "Strip trailing CR in deleted text
 inoremap <c-a> <c-r>1<esc>k$Jxi<right>

@@ -130,8 +130,10 @@ export WORKON_HOME=~/.ENVS
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 
+export PATH=/usr/local/clingo-5.4.0-linux-x86_64:$PATH
 export SPARK_HOME=~/spark
 export PATH=$PATH:$SPARK_HOME/bin
 
 curl wttr.in/?0mFnQ
 
+source ~/wasm/emsdk/emsdk_env.sh 2> /dev/null
